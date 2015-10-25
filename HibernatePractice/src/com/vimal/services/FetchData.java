@@ -40,6 +40,7 @@ public class FetchData {
 	        empList.add(emp2);
 	        session.save(emp1);
 	        session.save(emp2);
+	        System.out.println("Your save is successful");
 	        t.commit();
 	        
 	        dep.setEmployee(empList);
